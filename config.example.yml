@@ -1,0 +1,20 @@
+# Configuration for AudioBookShelf Sync Reverse Matching
+# Copy this file to config.yml and fill in your actual values
+
+servers:
+  - name: "My Primary Server"
+    base_url: "https://your-abs-server.com"
+    onepassword_item: "your-1password-item-name"
+  
+  - name: "My Local Server"
+    base_url: "http://192.168.1.100:13378"
+    onepassword_item: "your-local-1password-item-name"
+
+# Optional: Override default settings
+# batch_size: 10
+# dry_run: false
+# confidence_threshold: 0.7
+# test_limit: 10  # Limit books for testing
+
+# Goodreads export file path (relative to script directory)
+goodreads_export_file: "goodreads_library_export.csv"

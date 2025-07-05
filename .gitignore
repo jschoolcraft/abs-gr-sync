@@ -1,0 +1,15 @@
+# Configuration files with sensitive data
+config.yml
+
+# Personal data files
+goodreads_library_export.csv
+
+# Generated output files
+match_results.json
+failed_matches*.log
+
+# Generated directories
+mappings/
+
+# Claude Code files
+.claude/
